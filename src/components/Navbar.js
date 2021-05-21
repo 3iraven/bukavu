@@ -38,6 +38,10 @@ export default function Navbar() {
             Bukavu Analytics
           </Typography>
           <Button color="inherit">Login</Button>
+          <Button color="inherit">Login</Button>
+
+          <Button color="inherit">Login</Button>
+
         </Toolbar>
       </AppBar>
     </div>
