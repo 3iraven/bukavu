@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(15),
   },
   title: {
     flexGrow: 1,
@@ -37,10 +37,10 @@ export default function Navbar() {
           <Typography variant="h6" className={classes.title}>
             Bukavu Analytics
           </Typography>
-          <Button color="inherit">Login</Button>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">About</Button>
+          <Button color="inherit">Services</Button>
 
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Contact</Button>
 
         </Toolbar>
       </AppBar>
