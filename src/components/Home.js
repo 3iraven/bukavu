@@ -5,8 +5,8 @@ import '../App.css'
 import './General.css'
 const Home = () => {
     return (
-       <div>
-          <Jumbotron>
+       <div className="home">
+          <Jumbotron className="hero">
              <p>
                 This is a simple hero unit, a simple jumbotron-style component for calling
                 extra attention to featured content or information.

@@ -6,7 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Error from './components/Error';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 
 import Navigation from './components/Navigation';
 
@@ -21,7 +21,7 @@ function App() {
              <Route path="/contact" component={Contact}/>
             <Route component={Error}/>
            </Switch>
-          <Footer/>
+          
         </div> 
       </BrowserRouter>
 
