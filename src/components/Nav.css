@@ -1,0 +1,26 @@
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size:18px;
+
+  }
+  
+  .navbar-brand{
+    font-family: 'IBM Plex Serif', serif;
+    font-size:38px;
+    color: blue;
+  }
+
+  #fill-window {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
