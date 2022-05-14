@@ -24,7 +24,6 @@ ReactDOM.render(
 
     </Routes>
     <div id="gap"></div>
-    <Footer />
   </Router>,
 
   document.getElementById("root")
