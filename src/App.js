@@ -171,10 +171,10 @@ class App extends React.Component{
                 <Col xs="12" sm="6" md="6" lg="3">
                     <div className="text-center coman-box team-box">
                     <div className="team-img">
-                        <img src={require("./images/team-img1.jpg")} alt="" className="img-fluid rounded-circle" />
+                        <img src={require("./images/IMG-1697.jpg")} alt="" className="img-fluid rounded-circle" />
                     </div>
-                    <h4 className="text-white">Lucy Smith</h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <h4 className="text-white">Jeremie</h4>
+                    <p className="text-white">Sr Engineer Software/Machine Learning Enthousiate</p>
                     <ListGroup className="social-icon-team">
                         <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
                         <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
@@ -188,10 +188,10 @@ class App extends React.Component{
                 <Col xs="12" sm="6" md="6" lg="3">
                     <div className="text-center coman-box team-box">
                     <div className="team-img">
-                        <img src={require("./images/team-img2.jpg")} alt="" className="img-fluid rounded-circle" />
+                        <img src={require("./images/Dr-Vincent.jpg")} alt="" className="img-fluid rounded-circle" />
                     </div>
-                    <h4 className="text-white">Alex Maxwel</h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <h4 className="text-white">Dr. Vincent</h4>
+                    <p className="text-white">Research Scientific / Statistian / Educator & Mediator</p>
                     <ListGroup className="social-icon-team">
                         <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
                         <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
@@ -201,38 +201,7 @@ class App extends React.Component{
                     </ListGroup>
                     </div>
                 </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="text-center coman-box team-box">
-                    <div className="team-img">
-                        <img src={require("./images/team-img3.jpg")} alt="" className="img-fluid rounded-circle" />
-                    </div>
-                    <h4 className="text-white">Steven Doe</h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <ListGroup className="social-icon-team">
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-    
-                    </ListGroup>
-                    </div>
-                </Col>
-                <Col xs="12" sm="6" md="6" lg="3">
-                    <div className="text-center coman-box team-box">
-                    <div className="team-img">
-                        <img src={require("./images/team-img4.jpg")} alt="" className="img-fluid rounded-circle" />
-                    </div>
-                    <h4 className="text-white"> Maxwel Doe </h4>
-                    <p className="text-white">When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <ListGroup className="social-icon-team">
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-facebook" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-twitter" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-instagram" /></ListGroupItem>
-                        <ListGroupItem tag="a" href="#">  <Icofont icon="icofont-linkedin" /></ListGroupItem>
-    
-                    </ListGroup>
-                    </div>
-                </Col>
+                
                 </Row>
             </Container>
             </div>
