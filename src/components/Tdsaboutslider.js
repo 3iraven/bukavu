@@ -30,10 +30,10 @@ class Tdsaboutslider extends React.Component {
 
 
                 <div className="item">
-                    <div className="title-box mb-0 text-left">
+                    <div className="title-box mb-0 text- ">
                         <h2 className="mb-0">About </h2>
                         <h4 className="mt-0 mb-2 sub-title">We Are Digital Data <span>Analytic & Marketing</span></h4>
-                        <p>When an unknown printer took a galley of type and scrambled.</p>
+                        <p>We use the power of data and expertise to develop intervention, implementation, and optimization strategies to help organizations and businesses improve services, increase revenue, and promote better decision-making.</p>
                     </div>
 
 
@@ -43,12 +43,11 @@ class Tdsaboutslider extends React.Component {
                 <div className="item">
                     <div className="title-box text-left mb-0">
                         <h2 className="mb-0">Our   <b>Mission</b></h2>
-                        <h4 className="mt-0 mb-2 sub-title">We Are Digital <span>Marketing </span></h4>
+                        <h4 className="mt-0 mb-2 sub-title">Data & <span>Analytics Consulting </span></h4>
                     </div>
-                    <p>When an unknown printer took a galley of type and scrambled. </p>
-                    <p>Simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
-                    <p>Word in classical literature, discovered the undoubtable source.  "de Finibus Bonorum et Malorum.</p>
-                    <p>Standard chunk of Lorem Ipsum used since the 1500s is reproduced  "de Finibus Bonorum et Malorum" by Cicero.</p>
+
+                    <p>We use the power of data and expertise to develop intervention, implementation, and optimization strategies to help organizations and businesses improve services, increase revenue, and promote better decision-making.</p>
+
 
                 </div>
 

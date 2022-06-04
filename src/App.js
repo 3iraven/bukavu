@@ -84,6 +84,7 @@ class App extends React.Component{
                     <div className="about-img">
     
                     <img src={require("./images/aboutus.jpg")} alt="" className="img-fluid" />
+                    <a href='https://www.freepik.com/photos/business-data'>Business data photo created by snowing - www.freepik.com</a>
                     </div>
                 </Col>
                 <Col xs="12" sm="12" md="12" lg="6">
@@ -98,27 +99,27 @@ class App extends React.Component{
             <Container>
                 <div className="title-box">
                 <h2>Our  <b>Services</b></h2>
-                <p>There are many variations of passages of available.</p>
+                <p>We specialize in helping clients maximize effectiveness and optimize performance in:</p>
                 </div>
                 <Row>
                 <Col xs="12" sm="6" md="6" lg="3">
                     <div className="white-bg coman-box ourservice-box">
                     <Icofont icon="icofont-crown" />
-                    <h4>Branding</h4>
+                    <h4>Business Markets</h4>
                     <p>There are many variations of passages of available.</p>
                     </div>
                 </Col>
                 <Col xs="12" sm="6" md="6" lg="3">
                     <div className="white-bg coman-box ourservice-box">
                     <Icofont icon="icofont-pen-alt-3" />
-                    <h4>Planning</h4>
+                    <h4>Education Opportunities</h4>
                     <p>There are many variations of passages of available.</p>
                     </div>
                 </Col>
                 <Col xs="12" sm="6" md="6" lg="3">
                     <div className="white-bg coman-box ourservice-box">
                     <Icofont icon="icofont-camera-alt" />
-                    <h4>Strategy</h4>
+                    <h4>Healthcare Solutions</h4>
                     <p>There are many variations of passages of available.</p>
                     </div>
                 </Col>
@@ -160,6 +161,60 @@ class App extends React.Component{
                 </Row>
             </Container>
             </div>
+            {/* Marketing Section Start*/}
+            <div className="marketing-section grapping" >
+            <Container>
+    
+            <div className="title-box">
+                <h2>Our  <b>Strategy</b></h2>
+                </div>
+
+                <Row className="align-items-center">
+                <Col xs="12" sm="12" md="12" lg="6">
+                    <div className="marketing-img">
+                    <img src={require("./images/digitalmarketing.jpg")} alt="" className="img-fluid" />
+                    </div>
+                </Col>
+                <Col xs="12" sm="12" md="12" lg="6">
+                    <Media className="markrt-box">
+                    <Media left href="#">
+                        <Icofont icon="icofont-web" />
+                    </Media>
+                    <Media body>
+                        <Media heading>
+                         Business Markets
+                        </Media>
+                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
+                    </Media>
+                    </Media>
+                    <Media className="markrt-box">
+                    <Media left href="#">
+                        <Icofont icon="icofont-chart-pie" />
+                    </Media>
+                    <Media body>
+                        <Media heading>
+                        Data Analytic
+                        </Media>
+                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
+                    </Media>
+                    </Media>
+                    <Media className="markrt-box">
+                    <Media left href="#" >
+                        <Icofont icon="icofont-brand-designfloat" />
+                    </Media>
+                    <Media body>
+                        <Media heading>
+                        Education Opportunities
+                        </Media>
+                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
+                    </Media>
+                    </Media>
+    
+                </Col>
+                </Row>
+            </Container>
+            </div>
+
             {/* Team Section Start */}
             <div className="section expert-team grapping" id="team">
             <Container>
@@ -205,75 +260,9 @@ class App extends React.Component{
                 </Row>
             </Container>
             </div>
-            {/* Portfolio Section Start*/}
-            <div className="section ourportfolio grapping" id="portfolio">
-            <Container>
-                <div className="title-box">
-                <h2>Our   <b>Portfolio</b></h2>
-                <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                </div>
-                <Tdslightbox></Tdslightbox>
-            </Container>
-            </div>
-            {/* Marketing Section Start*/}
-            <div className="marketing-section grapping" >
-            <Container>
-    
-                <Row className="align-items-center">
-                <Col xs="12" sm="12" md="12" lg="6">
-                    <div className="marketing-img">
-                    <img src={require("./images/digitalmarketing.jpg")} alt="" className="img-fluid" />
-                    </div>
-                </Col>
-                <Col xs="12" sm="12" md="12" lg="6">
-                    <Media className="markrt-box">
-                    <Media left href="#">
-                        <Icofont icon="icofont-web" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Fully Responsive
-                        </Media>
-                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
-                    </Media>
-                    </Media>
-                    <Media className="markrt-box">
-                    <Media left href="#">
-                        <Icofont icon="icofont-chart-pie" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Data Analytic
-                        </Media>
-                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
-                    </Media>
-                    </Media>
-                    <Media className="markrt-box">
-                    <Media left href="#" >
-                        <Icofont icon="icofont-brand-designfloat" />
-                    </Media>
-                    <Media body>
-                        <Media heading>
-                        Clean & Unique Design
-                        </Media>
-                        Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore aliquam quaerat voluptatem.
-                    </Media>
-                    </Media>
-    
-                </Col>
-                </Row>
-            </Container>
-            </div>
-            {/* Expert Feadback Section Start */}
-            <div className="expertfeesback grapping" >
-            <Container>
-                <div className="title-box">
-                <h2>Expert <b>Feadback</b></h2>
-                <p>Extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain</p>
-                </div>
-                <Tdsfeedbackslider></Tdsfeedbackslider>
-            </Container>
-            </div>
+       
+
+       
             {/* Our  Pricing Section Start*/}
             {/* <div className="section ourlatest-pricing grapping" id="price">
             <Container>

@@ -59,7 +59,7 @@ class Tdsbanner extends React.Component {
                         <div className="banner-two banner-img">
                             <Container>
                                 <div className="banner-text text-center">
-                                    <h1 >THE BEST  <span>Data Analytic</span> &  Marketing</h1>
+                                     <h1>BARAKA <span>CONSULTING</span> & STRATEGIES</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                                     <div className="d-flex justify-content-center">
                                         <Button color="primary mr-3">Get Started</Button>
